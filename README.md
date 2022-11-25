@@ -1,7 +1,8 @@
 
 # Piranha Hello World Core Profile template
 
-This project delivers you with a template to get started with Piranha Server. 
+This project delivers you with a template to get started with Piranha Core 
+Profile. 
 
 ## Building locally
 
