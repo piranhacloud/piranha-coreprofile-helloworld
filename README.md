@@ -1,5 +1,5 @@
 
-# Piranha Hello World Core Profile template
+# Piranha Core Profile Hello World template
 
 This project delivers you with a template to get started with Piranha Core 
 Profile. 

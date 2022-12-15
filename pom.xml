@@ -6,12 +6,12 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cloud.piranha.template</groupId>
-    <artifactId>piranha-helloworld-coreprofile-template</artifactId>
+    <artifactId>piranha-coreprofile-helloworld-template</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>Piranha Hello World Core Profile template</name>
+    <name>Piranha Core Profile Hello World template</name>
     <properties>
-        <piranha.version>22.11.0</piranha.version>
+        <piranha.version>22.12.0</piranha.version>
         <piranha.distribution>coreprofile</piranha.distribution>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -64,6 +64,9 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <distribution>${piranha.distribution}</distribution>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
